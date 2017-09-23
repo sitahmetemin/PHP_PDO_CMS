@@ -1,0 +1,13 @@
+RewriteEngine on
+
+ErrorDocument 404 http://localhost/php_panel/404.php
+
+RewriteRule ^anasayfa$ index.php [NC,L]
+RewriteRule ^admin$ nedmin [NC,L]
+RewriteRule ^hakkimizda$ hakkimizda.php [NC,L]
+RewriteRule ^haberler$ haberler.php [NC,L]
+RewriteRule ^iletisim$ iletisim.php [NC,L]
+RewriteRule ^sitemap.xml$ sitemap.php [NC,L]
+
+RewriteRule ^haber-([0-9a-zA-Z-_]+)-([0-9]+)$ haber_detay.php?sef=$1&icerik_id=$2 [L,QSA]
+RewriteRule ^menu-([0-9a-zA-Z-_]+)-([0-9]+)$ menu-detay.php?sef=$1&menu_id=$2 [L,QSA]

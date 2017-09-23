@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="pdofirma@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="pdofirma">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="phpmyadmin"/>
+    <schema id="7" parent="1" name="test"/>
+    <schema id="8" parent="1" name="sinav"/>
+    <schema id="9" parent="1" name="turist_tbl"/>
+    <schema id="10" parent="1" name="vize"/>
+    <schema id="11" parent="1" name="fitegveritabani"/>
+    <table id="12" parent="2" name="ayarlar"/>
+    <table id="13" parent="2" name="hakkimizda"/>
+    <table id="14" parent="2" name="icerik"/>
+    <table id="15" parent="2" name="kullanici"/>
+    <table id="16" parent="2" name="menu"/>
+    <table id="17" parent="2" name="slider"/>
+    <column id="18" parent="12" name="ayar_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="19" parent="12" name="ayar_logo">
+      <Position>2</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="12" name="ayar_siteurl">
+      <Position>3</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="12" name="ayar_title">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="12" name="ayar_description">
+      <Position>5</Position>
+      <DataType>varchar(500)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="12" name="ayar_keywords">
+      <Position>6</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="12" name="ayar_author">
+      <Position>7</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="12" name="ayar_tel">
+      <Position>8</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="12" name="ayar_gsm">
+      <Position>9</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="12" name="ayar_faks">
+      <Position>10</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="12" name="ayar_mail">
+      <Position>11</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="12" name="ayar_adres">
+      <Position>12</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="12" name="ayar_ilce">
+      <Position>13</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="12" name="ayar_il">
+      <Position>14</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="12" name="ayar_mesai">
+      <Position>15</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="12" name="ayar_recapctha">
+      <Position>16</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="12" name="ayar_googlemap">
+      <Position>17</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="12" name="ayar_analystic">
+      <Position>18</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="12" name="ayar_facebook">
+      <Position>19</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="12" name="ayar_twitter">
+      <Position>20</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="12" name="ayar_instagram">
+      <Position>21</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="12" name="ayar_youtube">
+      <Position>22</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="12" name="ayar_google">
+      <Position>23</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="12" name="ayar_smtphost">
+      <Position>24</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="12" name="ayar_smtpuser">
+      <Position>25</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="12" name="ayar_smtppassword">
+      <Position>26</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="12" name="ayar_smtpport">
+      <Position>27</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="45" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ayar_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="46" parent="13" name="hakkimizda_id">
+      <Position>1</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="13" name="hakkimizda_baslik">
+      <Position>2</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="13" name="hakkimizda_icerik">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="13" name="hakkimizda_video">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="13" name="hakkimizda_vizyon">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="13" name="hakkimizda_misyon">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="52" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>hakkimizda_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="53" parent="14" name="icerik_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="54" parent="14" name="icerik_zaman">
+      <Position>2</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="14" name="icerik_resimyol">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="14" name="icerik_ad">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="14" name="icerik_detay">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="14" name="icerik_keyword">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="14" name="icerik_durum">
+      <Position>7</Position>
+      <DataType>varchar(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <key id="60" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>icerik_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="61" parent="15" name="kullanici_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="62" parent="15" name="kullanici_zaman">
+      <Position>2</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="15" name="kullanici_nick">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="15" name="kullanici_sifre">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="15" name="kullanici_adsoyad">
+      <Position>5</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="15" name="kullanici_yetki">
+      <Position>6</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="15" name="kullanici_durum">
+      <Position>7</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="68" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>kullanici_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="69" parent="16" name="menu_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="70" parent="16" name="kategori_id">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="16" name="menu_ust">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="16" name="menu_icon">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="16" name="menu_ad">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="16" name="menu_detay">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="16" name="menu_url">
+      <Position>7</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="16" name="menu_sira">
+      <Position>8</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="16" name="menu_durum">
+      <Position>9</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="78" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>menu_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="17" name="slider_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="80" parent="17" name="slider_ad">
+      <Position>2</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="17" name="slider_resimyol">
+      <Position>3</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="17" name="slider_link">
+      <Position>4</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="17" name="slider_sira">
+      <Position>5</Position>
+      <DataType>int(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="17" name="slider_durum">
+      <Position>6</Position>
+      <DataType>varchar(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <key id="85" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>slider_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
