@@ -1,0 +1,3 @@
+# PHP_PDO_CMS
+PHP ve PDO ile Hazırlanmış Yönetim Paneli
+Veritabanını oluşturuken kullanıcı olarak kendinizi kayıt edin. Yoksa bi daha phpmyadmine girmek zorunda kalırsınız...
